@@ -40,7 +40,7 @@ class MyApp2 extends StatelessWidget {
                  child: ListTile(
                  leading: Image.network(product.image),
                  title: Text(product.title),
-                   subtitle: Text(product.price.toString()), content: Text(product.price.toString()),
+                   subtitle: Text(product.price.toString()), 
                  trailing: Icon(Icons.add_shopping_cart ),
                    onTap: () =>   Navigator.push(
                      context,
